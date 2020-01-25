@@ -4,9 +4,7 @@
 int main()
 {
     Solution solution ;
-    std::cout << solution.PrintName() << std::endl;
-    std::cout << solution.PrintMajor() << std::endl;
-    std::cout << solution.PrintInterest() << std::endl;
+    std::cout << solution.PrintName() << std::endl << solution.PrintMajor() << std::endl << solution.PrintInterest() << std::endl;
 
     return EXIT_SUCCESS;
 }
